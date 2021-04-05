@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	color: black;
+}
+html,
+body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.top-square{
+	width: 100%;
+	height: 70px;
+	/* background-color: rgb(121,81,147); */
+	text-align: center;
+	overflow: hidden;
+	background: radial-gradient(200% 100% at bottom center,  #e96f92, #75517d, #1b2947);  /* #e96f92, */
+	/* background: radial-gradient(220% 105% at top center, #1b2947 10%, #75517d 40%, #e96f92 65%,); */
+	background-attachment: fixed;
+}
+h2{
+	color: white;
+	line-height: 90px;
+}
+.menu-Content{
+	position: relative;
+	top: 0px;
+	background-color: #006CB4;
+	width: 100%;
+	height: calc(100% - 70px);
+	background: radial-gradient(200% 105% at bottom center, #f7f7b6, #e96f92, #75517d, #1b2947);
+	background: radial-gradient(220% 105% at top center, #1b2947 10%, #75517d 40%, #e96f92 65%,);
+	background-attachment: fixed;
+	overflow: hidden;
+}
+.menu-content-options{
+	padding-top: 50px;
+	width: 90%;
+	height: calc(100vh - 70px);
+	position: absolute;
+	left: 5%;
+	top: 70px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.menu-content-options ul{
+	position: relative;
+	top: 0px;
+	left: 0%;
+	width: 100%;
+	height: calc(100vw / 4);
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.menu-content-options ul li{
+	width: calc(100vw / 6);
+	/* height: calc(100vw / 6); */
+	height: calc(100vw / 6 + 30px);
+	text-align: center;
+}
+.menu-content-options ul li p{
+	float: left;
+	color: white;
+}
+.menu-content-options ul li p:nth-child(1){
+	width: calc(100vw / 6);
+	height: calc(100vw / 6);
+	background-color: rgba(255,255,255,0.6);
+	border-radius: 20%;
+	text-align: center;
+}
+.menu-content-options ul li p:nth-child(2){
+	width: 100%;
+	height: 30px;
+	font-size: 13px;
+	line-height: 30px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	/* overflow: hidden; */
+}
+.menu-content-options ul li:nth-child(1){
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.menu-content-options ul li:nth-child(2){
+	position: absolute;
+	left: 27.2%;
+}
+.menu-content-options ul li:nth-child(3){
+	position: absolute;
+	right: 27.2%;
+}
+.menu-content-options ul li:nth-child(4){
+	position: absolute;
+	right: 0;
+	top: 0;
+}

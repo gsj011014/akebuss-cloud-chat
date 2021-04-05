@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/WriteAbout.css"/>
+		<script type="text/javascript">
+			
+			document.addEventListener('plusready', function(){
+				//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
+				plus.navigator.setStatusBarStyle('dark');
+			});
+			
+		</script>
+		<script src="../js/main.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/hardwareFunction.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/jquery-3.4.1.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="top-square">
+			<p id="cancel">取消</p>
+			<h2>写说说</h2>
+			<p id="publish">发表</p>
+		</div>
+		<div class="Input-Content">
+			<textarea id="WriteAbout" rows="5" cols="35" placeholder="请输入发表的内容...">
+				
+			</textarea>
+		</div>
+		<p id="Say-btn">语音输入</p>
+	</body>
+</html>
+<script src="../js/WriteAbout.js" type="text/javascript" charset="utf-8"></script>
